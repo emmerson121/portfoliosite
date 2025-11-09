@@ -2,8 +2,6 @@
 
 import { useState, ChangeEvent } from 'react';
 import validator from 'validator';
-import axios from 'axios';
-import { div } from 'framer-motion/client';
 
 // ✅ Define the interface BEFORE using it
 interface FormData {
@@ -27,7 +25,7 @@ export default function Contact() {
   const [errors2, setErrors2] = useState<string>('');
   const [errors3, setErrors3] = useState<string>('');
   const [errorMessage4, setErrorMessage4] = useState<string>('');
-  const [error, setError] = useState<string>('');
+  // const [error, setError] = useState<string>('');
   const [success, setSuccess] = useState<string | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
 
@@ -104,7 +102,7 @@ export default function Contact() {
       }
 
       // await axios.post('/api/server', formData);
-      const res = await fetch("/api/server", {
+      await fetch("/api/server", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -117,7 +115,7 @@ export default function Contact() {
       setFormData({ name: '', email: '', phone: '', message: '' });
       setNumber1('');
       setSuccess('Thanks for your response!');
-      setError('');
+      // setError('');
 
       setTimeout(() => {
         setShowModal(true);
@@ -125,7 +123,7 @@ export default function Contact() {
       }, 1000);
     } catch (error) {
       console.error('Submission Error:', error);
-      setError('Something went wrong. Please try again.');
+      // setError('Something went wrong. Please try again.');
       setSuccess('');
     }
   };

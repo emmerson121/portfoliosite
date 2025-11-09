@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 
 export default function AnimatedText() {
-  const text = "Hi, I'm Ebiefie Emmanuel";
 
   // Split text into parts so we can style them separately
   const beforeName = "Hi, I'm ";
@@ -24,7 +23,7 @@ export default function AnimatedText() {
 
   return (
     <motion.div
-      className="text-2xl md:text-5xl font-bold flex justify-center mb-4"
+      className="text-2xl lg:text-3xl font-bold flex justify-center mb-4"
       variants={container}
       initial="hidden"
       animate="visible"

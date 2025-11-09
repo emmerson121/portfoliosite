@@ -1,8 +1,4 @@
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-// import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
 import Link from "next/link";
 import cover3 from "./img/cover3.jpg"
 import adane from "./img/adanetech.png"
@@ -11,14 +7,6 @@ import emmerson from "./img/emmerson.png";
 import marat from "./img/marat.png";
 import microgpt from "./img/microgpt.png";
 import spiritweb from "./img/spiritWeb.png"
-import image1 from "./img/image1.png"
-import facebook1 from "./img/facebook1.png"
-import face from "./img/face.png"
-import links from "./img/links.png"
-import x from "./img/x.png";
-import instagram from "./img/instagram.png";
-import instag from "./img/instag.jpeg"
-import git from "./img/git.png"
 import Socials from "./Socialhandles/page";
 import Skills from "./Socialhandles/Skills/page";
 import Contact from "./components/contact/page";
@@ -27,7 +15,7 @@ import NavMenu from "./components/navmenu";
 import AnimatedBubbles from "./components/AnimatedBubbles";
 import AnimatedText from "./components/AnimatedText";
 
-export default function Home({ children }: { children: React.ReactNode }) {
+export default function Home() {
   return (
     
     <div className="max-w-screen m-auto">
@@ -45,7 +33,7 @@ export default function Home({ children }: { children: React.ReactNode }) {
               <div className="text-center">
           {/* <h1 className='w-full text-4xl xl:text-5xl mb-4 mt-10'>Hi, I'm Ebiefie Emmanuel</h1> */}
           <AnimatedText />
-          <div className='w-full text-sm md:text-base'>I'm a Front-End Web Developer focused on building Websites and Mobile Applications, leading to the overall 
+          <div className='w-full text-sm md:text-base'>I {`\'m`} a Front-End Web Developer focused on building Websites and Mobile Applications, leading to the overall 
             success of projects.</div>
             </div>
 
@@ -68,10 +56,10 @@ export default function Home({ children }: { children: React.ReactNode }) {
         <div className="text-xl md:text-3xl text-[#397eff] mb-6 font-bold"><span className="text-white">About</span> Me</div>
         
       <div data-aos='zoom-in-up' data-aos-delay="200" className="wrap gap-[30px] md:gap-[50px] md:flex md:justify-between w-full max-w-[1000px] m-auto mb-14 md:mb-22">
-        <div className="w-full md:w-2/4 text-left text-xs md:text-base xl:text-lg">I'm a Front-End Web Developer dedicated towards creativity, building user-friendly UIs with 100% interactivity, and contributing to the success of innovative projects.</div>
+        <div className="w-full md:w-2/4 text-left text-xs md:text-base xl:text-lg">I {`\'m`} a Front-End Web Developer dedicated towards creativity, building user-friendly UIs with 100% interactivity, and contributing to the success of innovative projects.</div>
        
 <div data-aos='zoom-in-up' data-aos-delay="200" className="w-full md:w-2/4 text-xs md:text-base text-left mt-6 md:mt-0 xl:text-lg">
-      Having being in the tech space for some years, I've 
+      Having being in the tech space for some years, I {`\'`}ve
         come across several projects, connected with leading 
         minds, and personalities. All of these 
         has helped to shape me, provide me with the necessary 
@@ -143,8 +131,8 @@ export default function Home({ children }: { children: React.ReactNode }) {
 
 {/* Project section */}
     <section data-aos='fade-up' data-aos-delay="200" className="text-center mt-28 md:mt-42" id="projects">
-      <div className="text-2xl md:text-3xl text-[#397eff] mb-6 font-bold md:text-2xl">Projects</div>
-      <p className="mb-4 text-xs md:text-base p-4">Below are various projects I've built, made up of personal and clients projects:</p>
+      <div className="text-2xl md:text-3xl text-[#397eff] mb-6 font-bold">Projects</div>
+      <p className="mb-4 text-xs md:text-base p-4">Below are various projects I {`\'`}ve built, made up of personal and clients projects:</p>
 
       <div className="flex justify-center items-center flex-wrap w-[100%] gap-12 p-6">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
@@ -226,9 +214,9 @@ export default function Home({ children }: { children: React.ReactNode }) {
 
   <div className="grid gap-[30px] md:flex md:justify-around items-center p-2 md:py-8 md:px-8 lg:gap-8 md:p-6 md:gap-8">
     <div data-aos='fade-up' data-aos-delay="200" className="w-full md:w-[50%] p-4">
-      <div className="text-lg md:text-2xl font-bold text-left mb-8 md:text-xl md:mb-4">Let's Build For You</div>
-    <p className="text-xs text-left md:text-base">Looking forward to turning your innovative ideas to real-time project, got a new or existing business and want to enhance its visibility? You're at the right place.</p>
-    <p className="text-left text-lg font-bold md:text-xl mt-6 mb-10 md:text-base">Let's talk!</p>
+      <div className="text-lg font-bold text-left mb-8 md:text-xl md:mb-4">Let {`\'s`} Build For You</div>
+    <p className="text-xs text-left md:text-base">Looking forward to turning your innovative ideas to real-time project, got a new or existing business and want to enhance its visibility? You {`\'`}re at the right place.</p>
+    <p className="text-left font-bold md:text-xl mt-6 mb-10 text-base">Let {`\'s`} talk!</p>
       <div className="flex items-center mb-4 gap-4">
         <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-[40px] h-[25px] rounded-[8px] pt-[8px] pb-[24px] pr-[24px] pl-[12px] m-0"><svg className="w-[14px] md:w-[18px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" fill="#fff" /></svg></div>
        

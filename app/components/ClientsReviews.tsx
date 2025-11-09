@@ -1,8 +1,8 @@
 // src/components/ClientReviews.tsx
 'use client'
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { clientReviews } from "../data/reviews";
-import AOSWrapper from "./AOSWrapper";
 
 const ClientReviews: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,13 +30,15 @@ const ClientReviews: React.FC = () => {
 
     <div data-aos='fade-up' data-aos-delay="200" className="text-left w-full md:w-[50%]">
         <div className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 md:mb-8">What do Clients say?</div>
-        <div className="text-xs md:text-base">Check out the feedbacks of clients and people I've collaborated with in building several web projects. I'm super reliable, timely in delivering top-notch websites.</div>
+        <div className="text-xs md:text-base">Check out the feedbacks of clients and people I have collaborated with in building several web projects. I am super reliable, timely in delivering top-notch websites.</div>
     </div>
 
         <div data-aos='fade-up' data-aos-delay="200" className="w-full md:w-[50%] lg:w-[50%]">
         <div className="relative bg-[#0e0e0e]  xl:h-[280px] rounded-xl shadow-md mx-auto w-full max-w-md transition-opacity duration-700 ease-in-out">
           {review.image && (
-            <img
+            <Image
+            width={100}
+            height={100}
               src={review.image}
               alt={review.name}
               className="w-20 h-20 rounded-full object-cover mx-auto mb-4 border-4 border-indigo-100"
