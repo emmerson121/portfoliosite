@@ -37,7 +37,7 @@ export default function Home({ children }: { children: React.ReactNode }) {
         <NavMenu />
         </div>
 
-{/* Hero section begins here */}
+{/* Hero section */}
 
 {/* Home section */}
         <section data-aos='fade-up' data-aos-delay="200" className='wrap gap-[30px] md:flex md:justify-between p-4 md:p-16 w-full md:mt-8' id="home">
