@@ -19,7 +19,7 @@ import AnimatedText from "./components/AnimatedText";
 export default function Home() {
   return (
     
-    <div className="max-w-screen m-auto]">
+    <div className="max-w-screen m-auto">
       <AnimatedBubbles />
       <div className="bg-[#160e16ad] w-full fixed top-0 left-0 z-20 backdrop-blur-[100px]">
         {/* Navbar section */}
