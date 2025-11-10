@@ -86,7 +86,7 @@ export default function AnimatedBubbles() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 -z-10 bg-black"
+      className="fixed inset-0 -z-10"
       // style={{ background: "radial-gradient(circle at top left, #0f172a, #020617)" }}
     />
   );
