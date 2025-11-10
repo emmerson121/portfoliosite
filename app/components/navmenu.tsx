@@ -22,7 +22,7 @@ const [toggle, setToggle] = useState<boolean>(true);
           <div className="flex items-center bg-[#0e0e0e] w-full p-[20px] mt-[10px] h-[70px] md:w-full relative xl:px-[60px]">
         
       <div className="w-screen flex items-center gap-[15px] pl-3">
-        <Link href="/" className="font-sans text-lg md:text-2xl font-bold relative"><span className="absolute">E</span><span className="font-mono text-[#397eff] font-bold text-3xl md:text-4xl ml-[-10px]">E</span></Link>
+        <Link href="/" className="logo"><span className="logo1">E</span><span className="logo2">E</span></Link>
         </div>
  
         <div className="hidden md:flex lg:gap-8 md:gap-6 text-white font-sans md:text-sm p-4">
@@ -43,7 +43,7 @@ const [toggle, setToggle] = useState<boolean>(true);
     <div className="w-full h-full bg-[#0e0e0e] text-base font-bold text-white rounded-md backdrop-blur-[25px]">
       <div className="flex justify-between items-center bg-[#0e0e0e] w-full p-6 mt-[10px] h-[70px] relative rounded-md">
         <div className="px-2">
-        <Link href="/" className="font-sans text-lg md:text-2xl font-bold relative"><span className="absolute">E</span><span className="font-mono text-[#397eff] font-bold text-3xl md:text-4xl ml-[-10px]">E</span></Link>
+        <Link href="/" className="logo"><span className="logo1">E</span><span className="logo2">E</span></Link>
         </div>
         <div className="w-[40px] md:hidden h-auto text-[20px]"><FontAwesomeIcon onClick={closeModal} className="text-white p-4" icon={faXmark} /></div>
       </div>

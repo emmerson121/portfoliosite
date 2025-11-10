@@ -30,3 +30,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.logo{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo1{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.logo2{
+    color: #397eff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 44px;
+    margin-left: -10px;
+}
