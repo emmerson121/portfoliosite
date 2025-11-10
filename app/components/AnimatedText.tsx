@@ -23,7 +23,7 @@ export default function AnimatedText() {
 
   return (
     <motion.div
-      className="text-2xl lg:text-3xl font-bold flex justify-center mb-4"
+      className="text-2xl lg:text-3xl xl:text-5xl lg:mb-10 md:mb-8 font-bold flex justify-center mb-6"
       variants={container}
       initial="hidden"
       animate="visible"

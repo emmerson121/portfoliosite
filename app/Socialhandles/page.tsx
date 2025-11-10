@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Socials() {
 
     return(
-        <div className="mt-6 grid items-center">
+        <div className="mt-10 lg:mt-12 grid items-center">
         <div className="text-base md:text-lg mb-3 text-center">Follow Me</div>
         <div className="flex items-center gap-4 m-auto">
         <div className="p-2 md:p-2.5 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://www.facebook.com/emmerson.ebiefie"><svg className="w-[20px] md:w-[30px] h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z" fill="#fff" stroke="blue"/></svg></Link></div>

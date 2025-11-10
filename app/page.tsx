@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import cover3 from "./img/cover3.jpg"
+// import cover3 from "./img/cover3.jpg"
 import adane from "./img/adanetech.png"
 import completeweb from "./img/completeweb.png"
 import emmerson from "./img/emmerson.png";
+import emmy1 from "./img/emmy1.jpg"
 import marat from "./img/marat.png";
 import microgpt from "./img/microgpt.png";
 import spiritweb from "./img/spiritWeb.png"
@@ -18,7 +19,7 @@ import AnimatedText from "./components/AnimatedText";
 export default function Home() {
   return (
     
-    <div className="max-w-screen m-auto">
+    <div className="max-w-screen m-auto]">
       <AnimatedBubbles />
       <div className="bg-[#160e16ad] w-full fixed top-0 left-0 z-20 backdrop-blur-[100px]">
         {/* Navbar section */}
@@ -37,7 +38,7 @@ export default function Home() {
             success of projects.</div>
             </div>
 
-            <div className="flex justify-center gap-4 items-center mt-6 md:m-auto w-full md:mt-8">
+            <div className="flex justify-center gap-4 items-center mt-6 md:m-auto w-full md:mt-12 lg:mt-16">
               <Link href='#projects' className="bg-[#397eff] border-[1px solid #000] p-3 rounded-[20px] text-[10px] md:text-xs w-[90px] md:w-[100px] h-[40px] text-center hover:bg-white hover:text-black">View projects</Link>
               <Link href='#contact' className="bg-white border-solid border-gray-400 text-black text-[10px] md:text-xs p-3 rounded-[20px] w-[90px] md:w-[100px] h-[40px] text-center hover:bg-[#397eff] hover:text-white">Contact Me</Link>
             </div>
@@ -45,8 +46,8 @@ export default function Home() {
             <Socials />
             </div>
 
-        <div className="w-[100%] h-[320px] md:w-2/4 md:h-auto md:ml-0 hover:p-2 hover:m-2">
-        <Image src={cover3} alt="" className="w-full h-full rounded-[10px]" />
+        <div className="w-full h-auto xl:h-auto md:w-2/4 md:h-auto md:ml-0 hover:p-2 hover:m-2">
+        <Image src={emmy1} alt="" className="w-full h-full rounded-[10px]" />
         </div>
         </section>
 

@@ -26,7 +26,7 @@ export default function AnimatedBubbles() {
     }[] = [];
 
     // Generate bubbles
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 25; i++) {
       bubbles.push({
         x: Math.random() * width,
         y: Math.random() * height,
@@ -86,8 +86,8 @@ export default function AnimatedBubbles() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 -z-10"
-    //   style={{ background: "radial-gradient(circle at top left, #0f172a, #020617)" }}
+      className="fixed inset-0 -z-10 bg-black"
+      // style={{ background: "radial-gradient(circle at top left, #0f172a, #020617)" }}
     />
   );
 }
