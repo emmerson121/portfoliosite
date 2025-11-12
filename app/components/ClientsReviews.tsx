@@ -28,13 +28,13 @@ const ClientReviews: React.FC = () => {
 
     <div className="grid gap-9 md:flex md:justify-between w-full md:w-full md:mt-8 p-4">
 
-    <div data-aos='fade-up' data-aos-delay="200" className="text-left w-full md:w-[50%]">
+    <div data-aos='fade-up' data-aos-delay="200" className="text-center md:text-left w-full md:w-[50%]">
         <div className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 md:mb-8">What do Clients say?</div>
         <div className="text-xs md:text-base">Check out the feedbacks of clients and people I have collaborated with in building several web projects. I am super reliable, timely in delivering top-notch websites.</div>
     </div>
 
         <div data-aos='fade-up' data-aos-delay="200" className="w-full md:w-[50%] lg:w-[50%]">
-        <div className="relative bg-[#0e0e0e]  xl:h-[280px] rounded-xl shadow-md mx-auto w-full max-w-md transition-opacity duration-700 ease-in-out">
+        <div className="relative hover:scale-[1.02] transition-transform duration-500  xl:h-[280px] rounded-xl shadow-md mx-auto w-full max-w-md bg-gradient-to-br from-[#0e0e0e] to-[#002b5b] ease-in-out">
           {review.image && (
             <Image
             width={100}

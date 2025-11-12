@@ -19,7 +19,7 @@ const [toggle, setToggle] = useState<boolean>(true);
 
     return(
         <div>
-          <div className="flex items-center bg-[#0e0e0e] w-full p-[20px] mt-[10px] h-[70px] md:w-full relative xl:px-[60px]">
+          <div className="flex items-center bg-[#0e0e0e] w-full p-[20px] mt-[10px] h-[70px] md:w-full relative xl:px-[55px] sm:px-[50px]">
         
       <div className="w-screen flex items-center gap-[15px] pl-3">
         <Link href="/" className="logo"><span className="logo1">E</span><span className="logo2">E</span></Link>
@@ -39,7 +39,7 @@ const [toggle, setToggle] = useState<boolean>(true);
 
 
 {!toggle ? 
-    <div className="absolute w-full top-0 right-0 left-0 bottom-0 flex justify-end bg-[#160e16ad]">
+    <div className="bg-[#160e16ad] absolute w-full top-0 right-0 left-0 bottom-0 flex justify-end">
     <div className="w-full h-full bg-[#0e0e0e] text-base font-bold text-white rounded-md backdrop-blur-[25px]">
       <div className="flex justify-between items-center bg-[#0e0e0e] w-full p-6 mt-[10px] h-[70px] relative rounded-md">
         <div className="px-2">

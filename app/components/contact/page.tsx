@@ -131,8 +131,8 @@ export default function Contact() {
   return (
     <div data-aos='fade-up' data-aos-delay="200">
       <form className="w-full md:w-[350px] lg:w-[480px] p-1.5">
-        <div className="bg-[#0e0e0e] p-6 rounded-lg">
-          <div className="text-2xl font-bold text-left mb-10">Get in touch</div>
+        <div className="bg-[#121212bf] p-6 rounded-lg">
+          <div className="md:text-2xl text-xl font-bold text-left mb-10">Get in touch</div>
 
           <div className="mb-6 w-full">
             <input
@@ -183,7 +183,7 @@ export default function Contact() {
  
           <div>
             <button
-              className="bg-[#397eff] hover:bg-[#1e1eefe3] p-2 w-[150px] h-auto rounded-md text-sm md:text-base"
+              className="bg-[#397eff] hover:bg-[#1e1eefe3] p-2 w-full md:w-[270px] lg:w-[380px] h-auto rounded-md text-sm md:text-base"
               id="send"
               onClick={submitButton}
             >
