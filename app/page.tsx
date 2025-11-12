@@ -20,7 +20,7 @@ import AnimatedText from "./components/AnimatedText";
 export default function Home() {
   return (
     
-    <div className="max-w-screen m-auto">
+    <div className="p-4 m-auto">
       <AnimatedBubbles />
       <div className="bg-[#160e16ad] w-full fixed top-0 left-0 z-20 backdrop-blur-[100px]">
         {/* Navbar section */}
@@ -30,7 +30,7 @@ export default function Home() {
 {/* Hero section */}
 
 {/* Home section */}
-        <section data-aos='fade-up' data-aos-delay="200" className='wrap gap-[30px] md:flex md:justify-between p-4 md:p-16 w-full md:mt-8' id="home">
+        <section data-aos='fade-up' data-aos-delay="200" className='wrap gap-[30px] md:flex md:justify-between p-[20px] md:p-6 lg:p-16 w-full md:mt-8' id="home">
             <div className="w-full md:w-[45%] mb-[50px] mt-20">
               <div className="text-center">
           {/* <h1 className='w-full text-4xl xl:text-5xl mb-4 mt-10'>Hi, I'm Ebiefie Emmanuel</h1> */}
@@ -54,13 +54,13 @@ export default function Home() {
 
         
 {/* About section */}
-    <section data-aos='fade-up' data-aos-delay="200" className="text-center p-4 md:py-8 md:px-16 mt-26 md:mt-36" id="about">
+    <section data-aos='fade-up' data-aos-delay="200" className="text-center p-4 md:p-6 mt-26 md:mt-36 lg:p-16" id="about">
         <div className="text-xl md:text-3xl text-[#397eff] mb-6 font-bold"><span className="text-white">About</span> Me</div>
         
-      <div data-aos='zoom-in-up' data-aos-delay="200" className="wrap gap-[30px] md:gap-[50px] md:flex md:justify-between w-full max-w-[1000px] m-auto mb-14 md:mb-22">
-        <div className="w-full md:w-2/4 text-left text-xs md:text-base xl:text-lg">I{`\'m`} a Front-End Web Developer dedicated towards creativity, building user-friendly UIs with 100% interactivity, and contributing to the success of innovative projects.</div>
+      <div data-aos='zoom-in-up' data-aos-delay="200" className="wrap gap-[30px] md:gap-[50px] md:flex md:justify-between w-full m-auto mb-14 md:mb-22">
+        <div className="w-full lg:w-full text-left text-xs md:text-base xl:text-lg">I{`\'m`} a Front-End Web Developer dedicated towards creativity, building user-friendly UIs with 100% interactivity, and contributing to the success of innovative projects.</div>
        
-<div data-aos='zoom-in-up' data-aos-delay="200" className="w-full md:w-2/4 text-xs md:text-base text-left mt-6 md:mt-0 xl:text-lg">
+<div data-aos='zoom-in-up' data-aos-delay="200" className="w-full lg:w-full text-xs md:text-base text-left mt-6 md:mt-0 xl:text-lg">
       Having being in the tech space for some years, I{`\'`}ve
         come across several projects, connected with leading 
         minds, and personalities. All of these 
@@ -79,7 +79,7 @@ export default function Home() {
       <div className="text-xl md:text-3xl text-[#397eff] mb-6 font-bold"><span className="text-white">My</span> Resume</div>
     <div className="text-xs md:text-base mb-4">Professional qualifications and technical expertise</div>
 
-      <div className="grid gap:[30px] lg:gap-[50px] md:flex w-full p-4 md:py-8 md:px-16 gap-8">
+      <div className="grid gap:[30px] lg:gap-[50px] md:flex w-full p-4 md:p-6 lg:p-16 gap-8">
         <div className="w-full md:w-[50%]">
           <div className="flex items-center gap-2 mb-6">
             <div><svg className="w-[25px] md:w-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M80 259.8L289.2 345.9C299 349.9 309.4 352 320 352C330.6 352 341 349.9 350.8 345.9L593.2 246.1C602.2 242.4 608 233.7 608 224C608 214.3 602.2 205.6 593.2 201.9L350.8 102.1C341 98.1 330.6 96 320 96C309.4 96 299 98.1 289.2 102.1L46.8 201.9C37.8 205.6 32 214.3 32 224L32 520C32 533.3 42.7 544 56 544C69.3 544 80 533.3 80 520L80 259.8zM128 331.5L128 448C128 501 214 544 320 544C426 544 512 501 512 448L512 331.4L369.1 390.3C353.5 396.7 336.9 400 320 400C303.1 400 286.5 396.7 270.9 390.3L128 331.4z" fill="#fff"/></svg></div>
@@ -136,9 +136,9 @@ export default function Home() {
       <div className="text-2xl md:text-3xl text-[#397eff] mb-6 font-bold">Projects</div>
       <p className="mb-4 text-xs md:text-base p-4">Below are various projects I{`\'`}ve built, made up of personal and clients projects:</p>
 
-      <div className=" flex justify-center items-center flex-wrap w-[100%] gap-12 p-[15px] m-auto">
-        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[400px] xl:w-[500px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
+      <div className=" flex justify-center items-center flex-wrap w-full gap-12 p-[18px] m-auto">
+        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[575px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[575px] lg:w-[450px] md:w-[320px]">
         <Link href="https://adiele.vercel.app">
           <Image className="w-full h-full rounded-xl" src={adane} alt="" />
         </Link>
@@ -158,8 +158,8 @@ export default function Home() {
         </div>
          </div>
 
-        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[400px] xl:w-[500px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
+        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[575px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[575px] lg:w-[450px] md:w-[320px]">
         <Link href="https://mayweb.vercel.app/">
           <Image className="w-full h-full rounded-xl" src={completeweb} alt="" />
         </Link>
@@ -179,8 +179,8 @@ export default function Home() {
         </div>
         </div>
        
-        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[400px] xl:w-[500px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
+        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[575px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[575px] lg:w-[450px] md:w-[320px]">
         <Link href="https://personalportfolio-beta-liart.vercel.app/">
           <Image className="w-full h-full rounded-xl" src={emmerson} alt="" />
         </Link>
@@ -200,8 +200,8 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[400px] xl:w-[500px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
+        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[575px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[575px] lg:w-[450px] md:w-[320px]">
         <Link href="https://neyenwa.vercel.app">
           <Image className="w-full h-full rounded-xl" src={marat} alt="" />
         </Link>
@@ -221,8 +221,8 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[400px] xl:w-[500px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
+        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[575px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[575px] lg:w-[450px] md:w-[320px]">
         <Link href="">
           <Image className="w-full h-full rounded-xl" src={microgpt} alt="" />
         </Link>
@@ -242,8 +242,8 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[400px] xl:w-[500px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[500px] lg:w-[400px] md:w-[320px]">
+        <div className="bg-[#0e0e0e] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[575px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[575px] lg:w-[450px] md:w-[320px]">
         <Link href="">
           <Image className="w-full h-full rounded-xl" src={spiritweb} alt="" />
         </Link>
@@ -277,7 +277,7 @@ export default function Home() {
     <section data-aos='fade-up' data-aos-delay="200" className="text-center mt-28 md:mt-42" id="contact">
       <div className="text-2xl text-[#397eff] mb-2 font-bold md:text-3xl"><span className="text-white">Contact</span> Me</div>
 
-  <div className="grid gap-[30px] md:flex md:justify-around items-center p-2 md:py-8 md:px-8 lg:gap-8 md:p-6 md:gap-8">
+  <div className="grid gap-[30px] md:flex md:justify-around items-center p-2 md:p-4 lg:gap-8 md:gap-8">
     <div data-aos='fade-up' data-aos-delay="200" className="w-full md:w-[50%] p-4">
       <div className="text-lg font-bold text-left mb-8 md:text-xl md:mb-4">Let {`\'s`} Build For You</div>
     <p className="text-xs text-left md:text-base">Looking forward to turning your innovative ideas to real-time project, got a new or existing business and want to enhance its visibility? You{`\'`}re at the right place.</p>
@@ -318,7 +318,7 @@ export default function Home() {
 
 
 {/* Footer section */}
-    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[60px]">
+    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
       <div className="flex justify-between items-center pl-3">
       <div className="logo"><span className="logo1">E</span><span className="logo2">E</span></div>
 

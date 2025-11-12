@@ -21,7 +21,7 @@ const ClientReviews: React.FC = () => {
 
   return (
     <section data-aos='fade-up' data-aos-delay="200" id="reviews" className="mt-26 md:mt-36">
-      <div className="mx-auto text-center transition-all duration-700 lg:p-16 md:p-6">
+      <div className="mx-auto text-center transition-all duration-700 lg:p-16">
         <h2 className="text-2xl md:text-3xl mb-6 font-bold text-[#397eff]">
           <span className="text-white">Client</span> Reviews
         </h2>

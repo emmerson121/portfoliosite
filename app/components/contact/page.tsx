@@ -130,7 +130,7 @@ export default function Contact() {
 
   return (
     <div data-aos='fade-up' data-aos-delay="200">
-      <form className="w-full md:w-[370px] lg:w-[480px] p-1.5">
+      <form className="w-full md:w-[350px] lg:w-[480px] p-1.5">
         <div className="bg-[#0e0e0e] p-6 rounded-lg">
           <div className="text-2xl font-bold text-left mb-10">Get in touch</div>
 
