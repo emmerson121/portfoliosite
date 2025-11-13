@@ -137,7 +137,7 @@ export default function Home() {
       <p className="mb-4 text-xs md:text-base p-4">Below are various projects I{`\'`}ve built, made up of personal and clients projects:</p>
 
       <div className=" flex justify-center items-center flex-wrap w-full gap-12 p-[18px] m-auto">
-        <div className="bg-[#121212bf] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://adiele.vercel.app">
           <Image className="w-full h-full rounded-xl" src={adane} alt="" />
@@ -158,7 +158,7 @@ export default function Home() {
         </div>
          </div>
 
-        <div className="bg-[#121212bf] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://mayweb.vercel.app/">
           <Image className="w-full h-full rounded-xl" src={completeweb} alt="" />
@@ -179,7 +179,7 @@ export default function Home() {
         </div>
         </div>
        
-        <div className="bg-[#121212bf] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://personalportfolio-beta-liart.vercel.app/">
           <Image className="w-full h-full rounded-xl" src={emmerson} alt="" />
@@ -200,7 +200,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="bg-[#121212bf] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://neyenwa.vercel.app">
           <Image className="w-full h-full rounded-xl" src={marat} alt="" />
@@ -221,7 +221,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="bg-[#121212bf] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="">
           <Image className="w-full h-full rounded-xl" src={microgpt} alt="" />
@@ -242,7 +242,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="bg-[#121212bf] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="">
           <Image className="w-full h-full rounded-xl" src={spiritweb} alt="" />
