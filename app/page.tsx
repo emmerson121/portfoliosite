@@ -86,19 +86,19 @@ export default function Home() {
           <div className="text-left text-xl md:text-2xl font-bold">Education</div>
           </div>
         
-        <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#0e0e0e] rounded-md p-4 mb-8">
+        <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] rounded-md p-4 mb-8">
         <div className="text-left text-base md:text-lg font-bold mb-2">Diploma in Health, Safety, Security & Environment</div>
         <p className="text-left text-xs md:text-sm mb-[5px]">University of Uyo</p>
         <p className="text-left text-xs md:text-sm">2016 - 2017</p>
           </div>
 
-          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#0e0e0e] rounded-md p-4 mb-8">
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] rounded-md p-4 mb-8">
         <div className="text-left text-base md:text-lg font-bold mb-2">B.Sc Microbiology</div>
         <p className="text-left text-xs md:text-sm mb-[5px]">University of Uyo</p>
         <p className="text-left text-xs md:text-sm">2017 - 2022</p>
           </div>
 
-          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#0e0e0e] rounded-md p-4 mb-8">
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] rounded-md p-4 mb-8">
         <div className="text-left md:text-lg font-bold mb-2 text-base">JavScript Masters Course</div>
         <p className="text-left text-xs md:text-sm mb-[5px]">OGtech Network Ltd</p>
         <p className="text-left text-xs md:text-sm">November, 2023</p>
@@ -112,14 +112,14 @@ export default function Home() {
           </div>
 
     <div className="gap-[30px] w-full">
-          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#0e0e0e] w-full h-auto md:h-[200px] rounded-md text-left p-4 mb-8">
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-full h-auto md:h-[200px] rounded-md text-left p-4 mb-8">
             <div className="text-base md:text-lg font-bold mb-2">Front-End Developer</div>
             <div className="text-xs md:text-sm">Armaweb Technology</div>
             <div className="text-xs md:text-sm mb-2">2024 - Present</div>
             <div className="text-xs md:text-sm">Development of scalable & user-friendly projects with maximum responsiveness and output.</div>
           </div>
 
-          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#0e0e0e] w-[full] h-auto md:h-[200px] rounded-md text-left p-4">
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-[full] h-auto md:h-[200px] rounded-md text-left p-4">
             <div className="text-base md:text-lg font-bold mb-2">Content Creator</div>
             <div className="text-xs md:text-sm">Coinstore Exchange &nbsp; |&nbsp; Numbers Protocol</div>
             <div className="text-xs md:text-sm mb-2">2022 - Present</div>
@@ -318,7 +318,7 @@ export default function Home() {
 
 
 {/* Footer section */}
-    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
+    <footer className="bg-[#2c2c2ce3] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
       <div className="flex justify-between items-center pl-3">
       <div className="logo"><span className="logo1">E</span><span className="logo2">E</span></div>
 
