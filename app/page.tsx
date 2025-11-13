@@ -318,7 +318,7 @@ export default function Home() {
 
 
 {/* Footer section */}
-    <footer className="bg-[#2c2c2ce3] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
+    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
       <div className="flex justify-between items-center pl-3">
       <div className="logo"><span className="logo1">E</span><span className="logo2">E</span></div>
 
