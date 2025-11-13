@@ -7,16 +7,6 @@ import Link from "next/link";
 export default function NavMenu() {
 const [toggle, setToggle] = useState<boolean>(true);
 
-    // const toggleModal = () => {
-    //   setToggle(!toggle);
-    //   document.body.style.overflow = "hidden";
-    // };
-  
-    // const closeModal = () => {
-    //   setToggle(true);
-    //   document.body.style.overflow = "auto";
-    // };
-
     return(
         <div>
           <div className="flex items-center bg-[#0e0e0e] w-full p-[20px] mt-[10px] h-[70px] md:w-full relative xl:px-[55px] sm:px-[50px]">

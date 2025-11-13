@@ -15,17 +15,20 @@ import ClientReviews from "./components/ClientsReviews";
 import NavMenu from "./components/navmenu";
 import AnimatedBubbles from "./components/AnimatedBubbles";
 import AnimatedText from "./components/AnimatedText";
+// import ThemeToggle from "./components/ThemeToggle";
 
 
 export default function Home() {
   return (
     
-    <div className="m-auto max-w-[1480px]">
+    <div className="m-auto xl:min-w-[1420px]">
       <AnimatedBubbles />
       <div className="bg-[#160e16ad] w-full fixed top-0 left-0 z-20 backdrop-blur-[100px]">
         {/* Navbar section */}
         <NavMenu />
         </div>
+
+
 
 {/* Hero section */}
 
