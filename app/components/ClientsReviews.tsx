@@ -1,4 +1,4 @@
-// src/components/ClientReviews.tsx
+//src/components/ClientReviews.tsx
 'use client'
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -12,7 +12,7 @@ const ClientReviews: React.FC = () => {
       setCurrentIndex((prev) =>
         prev === clientReviews.length - 1 ? 0 : prev + 1
       );
-    }, 10000); // change every 4 seconds
+    }, 10000); // change every 10 seconds
 
     return () => clearInterval(interval);
   }, []);

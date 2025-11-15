@@ -18,7 +18,8 @@ import AnimatedText from "./components/AnimatedText";
 import ThemeToggle from "./components/ThemeToggle";
 
 
-export default function Home() {
+export default async function Home() {
+    await new Promise((resolve) => setTimeout(resolve, 2000))
   return (
     
     <div className="m-auto max-w-[2560px]">
@@ -322,7 +323,7 @@ export default function Home() {
 
 {/* Footer section */}
     <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
-      <div className="flex justify-between items-center pl-3">
+      <div className="flex justify-between items-center pl-3 md:pl-0">
       <div className="logo"><span className="logo1">E</span><span className="logo2">E</span></div>
 
         <div className="flex justify-between items-center gap-2.5 md:gap-4">

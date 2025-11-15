@@ -11,7 +11,7 @@ const [toggle, setToggle] = useState<boolean>(true);
         <div>
           <div className="flex items-center bg-[#0e0e0e] w-full p-[20px] mt-[10px] h-[70px] md:w-full relative xl:px-[80px]">
         
-      <div className="w-screen flex items-center gap-[15px] pl-3">
+      <div className="w-full flex items-center gap-[15px] pl-3 md:pl-0">
         <Link href="/" className="logo"><span className="logo1">E</span><span className="logo2">E</span></Link>
         </div>
  
