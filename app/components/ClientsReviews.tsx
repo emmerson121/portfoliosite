@@ -20,7 +20,7 @@ const ClientReviews: React.FC = () => {
   const review = clientReviews[currentIndex];
 
   return (
-    <section data-aos='fade-up' data-aos-delay="200" id="reviews" className="mt-26 md:mt-36">
+    <section data-aos='fade-up' data-aos-delay="200" id="reviews" className="mt-28 md:mt-42 m-auto">
       <div className="mx-auto text-center transition-all duration-700 lg:p-16">
         <h2 className="text-2xl md:text-3xl mb-6 font-bold text-[#397eff]">
           <span className="text-white">Client</span> Reviews

@@ -58,7 +58,7 @@ export default async function Home() {
 
         
 {/* About section */}
-    <section data-aos='fade-up' data-aos-delay="200" className="text-center p-4 md:p-6 mt-26 md:mt-36 lg:p-16" id="about">
+    <section data-aos='fade-up' data-aos-delay="200" className="text-center p-4 md:p-6 lg:p-0 mt-26 md:mt-36 lg:p-16" id="about">
         <div className="text-xl md:text-3xl text-[#397eff] mb-6 font-bold"><span className="text-white">About</span> Me</div>
         
       <div data-aos='zoom-in-up' data-aos-delay="200" className="wrap gap-[30px] md:gap-[50px] md:flex md:justify-between w-full m-auto mb-14 md:mb-22">
@@ -136,7 +136,7 @@ export default async function Home() {
 
 
 {/* Project section */}
-    <section data-aos='fade-up' data-aos-delay="200" className="text-center mt-28 md:mt-42 xl:p-6" id="projects">
+    <section data-aos='fade-up' data-aos-delay="200" className="text-center mt-28 md:mt-42" id="projects">
       <div className="text-2xl md:text-3xl text-[#397eff] mb-6 font-bold">Projects</div>
       <p className="mb-4 text-xs md:text-base p-4">Below are various projects I{`\'`}ve built, made up of personal and clients projects:</p>
 
@@ -278,7 +278,7 @@ export default async function Home() {
 
 
 {/* Contact section */}
-    <section data-aos='fade-up' data-aos-delay="200" className="text-center mt-28 md:mt-42 xl:p-8" id="contact">
+    <section data-aos='fade-up' data-aos-delay="200" className="text-center mt-28 md:mt-42" id="contact">
       <div className="text-2xl text-[#397eff] mb-2 font-bold md:text-3xl"><span className="text-white">Contact</span> Me</div>
 
   <div className="grid gap-[30px] md:flex md:justify-around items-center p-2 md:p-4 lg:gap-8 md:gap-8">
@@ -322,7 +322,7 @@ export default async function Home() {
 
 
 {/* Footer section */}
-    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[80px]">
+    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[70px]">
       <div className="flex justify-between items-center pl-3 md:pl-0">
       <div className="logo"><span className="logo1">E</span><span className="logo2">E</span></div>
 
