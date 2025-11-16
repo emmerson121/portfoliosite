@@ -3,7 +3,7 @@
 import { useState, ChangeEvent } from 'react';
 import validator from 'validator';
 
-// ✅ Define the interface BEFORE using it
+// Define the interface BEFORE using it
 interface FormData {
   name: string;
   email: string;
@@ -25,7 +25,6 @@ export default function Contact() {
   const [errors2, setErrors2] = useState<string>('');
   const [errors3, setErrors3] = useState<string>('');
   const [errorMessage4, setErrorMessage4] = useState<string>('');
-  // const [error, setError] = useState<string>('');
   const [success, setSuccess] = useState<string | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
 
@@ -36,8 +35,6 @@ export default function Contact() {
       ...prevData,
       [name]: value,
     }));
-
-    // console.log(formData)
 
     let errorMessage = '';
     let errorMessage1 = '';
@@ -122,7 +119,6 @@ export default function Contact() {
         setTimeout(() => setShowModal(false), 5000);
       }, 1000);
     } catch (error) {
-      console.error('Submission Error:', error);
       // setError('Something went wrong. Please try again.');
       setSuccess('');
     }
