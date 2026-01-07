@@ -12,8 +12,8 @@ interface AOSWrapperProps {
 const AOSWrapper: React.FC<AOSWrapperProps> = ({ children }) => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration in ms
-      once: true, // Run animation only once
+      duration: 1000,
+      once: true,
     });
   }, []);
 
