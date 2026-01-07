@@ -248,7 +248,7 @@ export default async function Home() {
 
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="">
+        <Link href="https://thespiritmedia.com.ng">
           <Image className="w-full h-full rounded-xl" src={spiritweb} alt="" />
         </Link>
 

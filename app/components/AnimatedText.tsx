@@ -18,7 +18,8 @@ export default function AnimatedText() {
 
   const child = {
     hidden: { opacity: 0, y: `0.5em` },
-    visible: { opacity: 1, y: `0em`, transition: { duration: 0.3 } },
+    visible: { opacity: 1, y: `0em`, 
+    transition: { duration: 0.3 } },
   };
 
   return (
@@ -40,7 +41,7 @@ export default function AnimatedText() {
         <motion.span
           key={beforeName.length + index}
           variants={child}
-          style={{ color: "#397eff" }} // 👈 apply color here
+          style={{ color: "#397eff" }} // apply color here
         >
           {char === " " ? "\u00A0" : char}
         </motion.span>
