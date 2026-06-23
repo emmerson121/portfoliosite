@@ -3,7 +3,7 @@
 import { useState, ChangeEvent } from 'react';
 import validator from 'validator';
 
-// Define the interface BEFORE using it
+// Define the interface before using it
 interface FormData {
   name: string;
   email: string;
@@ -35,6 +35,7 @@ export default function Contact() {
       ...prevData,
       [name]: value,
     }));
+
 
     let errorMessage = '';
     let errorMessage1 = '';
@@ -198,7 +199,7 @@ export default function Contact() {
         <div className='fixed left-0 right-0 mt-[-100px]'>
             <div className='flex justify-center items-center gap-2 py-[-60px] z-20'>
                <div className="text-[16px] lg:text-[18px] text-green-500 text-center">
-              Message sent successfully
+              Message sent successfully.
             </div>
 
             <div className="w-[30px]">

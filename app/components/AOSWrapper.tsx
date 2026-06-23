@@ -2,6 +2,7 @@
 
 import { useEffect, ReactNode } from 'react';
 import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 
 interface AOSWrapperProps {
@@ -11,8 +12,8 @@ interface AOSWrapperProps {
 const AOSWrapper: React.FC<AOSWrapperProps> = ({ children }) => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      once: true,
+      duration: 1000, // Animation duration in ms
+      once: true, // Run animation only onc
     });
   }, []);
 

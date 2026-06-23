@@ -11,7 +11,7 @@ export async function POST(req: Request) {
     if (!name || !email || !phone || !message) {
       return NextResponse.json(
         { error: "All fields are required." },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
