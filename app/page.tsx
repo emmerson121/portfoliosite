@@ -4,6 +4,7 @@ import Link from "next/link";
 import adane from "./img/adanetech.png"
 import completeweb from "./img/completeweb.png"
 import emmerson from "./img/emmerson.png";
+import profile from "./img/profile.jpg"
 import emmy1 from "./img/emmy1.jpg"
 import marat from "./img/marat.png";
 import microgpt from "./img/microgpt.png";
@@ -15,7 +16,11 @@ import ClientReviews from "./components/ClientsReviews";
 import NavMenu from "./components/navmenu";
 import AnimatedBubbles from "./components/AnimatedBubbles";
 import AnimatedText from "./components/AnimatedText";
+import CountUp from "./components/CountUp";
 import ThemeToggle from "./components/ThemeToggle";
+import reverb_web from "./img/reverb_web.png"
+import meridian_web from "./img/meridian_web.png"
+import jobsphere from "./img/jobsphere.png"
 
 
 export default async function Home() {
@@ -34,43 +39,58 @@ export default async function Home() {
 {/* Hero section */}
 
 {/* Home section */}
-        <section data-aos='fade-up' data-aos-delay="200" className='wrap gap-[30px] md:flex md:justify-between p-[20px] md:p-6 lg:p-16 w-full md:mt-8' id="home">
+        <section data-aos='fade-up' data-aos-delay="200" className='wrap gap-[30px] md:flex md:justify-between p-5 md:p-6 lg:p-16 w-full md:mt-8' id="home">
             <div className="w-full md:w-[45%] mb-[50px] mt-20">
               <div className="text-center">
           {/* <h1 className='w-full text-4xl xl:text-5xl mb-4 mt-10'>Hi, I'm Ebiefie Emmanuel</h1> */}
           <AnimatedText />
-          <div className='w-full text-sm md:text-base'>I{`\'m`} a Front-End Web Developer focused on building Websites and Mobile Applications, leading to the overall 
-            success of projects.</div>
+          <div className='w-full text-sm md:text-base'>I{`\'m`} a Fullstack Developer focused on building scalable web applications, productive and reliable management systems leading to the overall 
+            success for companies, brands, and/or individuals.</div>
             </div>
 
+             {/* Delivered Projects Counter */}
+<div className="mt-8">
+  <CountUp />
+</div>
+
             <div className="flex justify-center gap-4 items-center mt-6 md:m-auto w-full md:mt-12 lg:mt-16">
-              <Link href='#projects' className="bg-[#397eff] border-[1px solid #000] p-3 rounded-[20px] text-[10px] md:text-xs w-[90px] md:w-[100px] h-[40px] text-center hover:bg-white hover:text-black">View projects</Link>
-              <Link href='#contact' className="bg-white border-solid border-gray-400 text-black text-[10px] md:text-xs p-3 rounded-[20px] w-[90px] md:w-[100px] h-[40px] text-center hover:bg-[#397eff] hover:text-white">Contact Me</Link>
+              <Link href='#projects' className="bg-[#397eff] border-[1px solid #000] p-3 rounded-[20px] text-[10px] md:text-xs w-[90px] md:w-[100px] h-10 text-center hover:bg-white hover:text-black">View projects</Link>
+              <Link href='#contact' className="bg-white border-solid border-gray-400 text-black text-[10px] md:text-xs p-3 rounded-[20px] w-[90px] md:w-[100px] h-10 text-center hover:bg-[#397eff] hover:text-white">Contact Me</Link>
             </div>
 
             <Socials />
             </div>
 
-        <div className="w-full h-auto xl:h-auto md:w-2/4 md:h-auto md:ml-0 hover:p-2 hover:m-2">
-        <Image src={emmy1} alt="" className="w-full h-full rounded-[10px]" />
+        <div className="w-full h-auto xl:h-auto md:w-2/4 md:h-20 md:ml-0 hover:p-2 hover:m-2">
+        <Image src={profile} alt="" className="w-full h-full rounded-[10px]" />
         </div>
         </section>
 
         
 {/* About section */}
-    <section data-aos='fade-up' data-aos-delay="200" className="text-center p-4 md:p-6 lg:p-0 mt-26 md:mt-36 lg:p-16" id="about">
+    <section data-aos='fade-up' data-aos-delay="200" className="text-center p-4 md:p-6 mt-26 md:mt-36 lg:p-16" id="about">
         <div className="text-xl md:text-3xl text-[#397eff] mb-6 font-bold"><span className="text-white">About</span> Me</div>
         
       <div data-aos='zoom-in-up' data-aos-delay="200" className="wrap gap-[30px] md:gap-[50px] md:flex md:justify-between w-full m-auto mb-14 md:mb-22">
-        <div className="w-full lg:w-full md:text-left text-center text-xs md:text-base xl:text-lg">I{`\'m`} a Front-End Web Developer dedicated towards creativity, building user-friendly UIs with 100% interactivity, and contributing to the success of innovative projects.</div>
+        <div className="w-full lg:w-full md:text-left text-center text-xs md:text-base xl:text-lg"
+        >
+          I{`\'m`} a Fullstack Developer dedicated towards creativity,
+           excellence, blending scalable and user-friendly UIs 
+           with backend functionalities through RESTful APIs. 
+        </div>
        
 <div data-aos='zoom-in-up' data-aos-delay="200" className="w-full lg:w-full text-xs md:text-base md:text-left text-center mt-6 md:mt-0 xl:text-lg">
-      Having being in the tech space for some years, I{`\'`}ve
-        come across several projects, connected with leading 
-        minds, and personalities. All of these 
-        has helped to shape me, provide me with the necessary 
-        experiences, and aided me in exploring various programming languages in 
-        web development.
+      I help businesses, companies, brands turn innovative ideas
+       into real-world web applications for advertising their 
+       services, selling their products, and building digital systems 
+       for various uses. To solve these problems, I utilize JavaScript, 
+       Typescript, React, Next.js, GitHub.
+       For building systems and development of RESTful APIs, 
+       I make use of tools like Node.js, Express.js, Prisma. 
+       I have delivered two (3) fullstack projects which are 
+       currently live, and 2 backend management systems. 
+       Looking forward to building your dream project? 
+       Kindly reach out.
 </div>
 </div>
 
@@ -106,6 +126,12 @@ export default async function Home() {
         <div className="text-left md:text-lg font-bold mb-2 text-base">JavScript Masters Course</div>
         <p className="text-left text-xs md:text-sm mb-[5px]">OGtech Network Ltd</p>
         <p className="text-left text-xs md:text-sm">November, 2023</p>
+          </div>
+
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] rounded-md p-4 mb-8">
+        <div className="text-left md:text-lg font-bold mb-2 text-base">Backend Development</div>
+        <p className="text-left text-xs md:text-sm mb-[5px]">TS Academy</p>
+        <p className="text-left text-xs md:text-sm">May, 2026</p>
           </div>
         </div>
 
@@ -185,13 +211,13 @@ export default async function Home() {
        
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="https://personalportfolio-beta-liart.vercel.app/">
-          <Image className="w-full h-full rounded-xl" src={emmerson} alt="" />
+        <Link href="https://www.reverbpointhub.com">
+          <Image className="w-full h-full rounded-xl" src={reverb_web} alt="" />
         </Link>
 
         <div className="p-4">
-        <div className="text-left text-base md:text-[18px] font-bold mb-2">Emmerson Portfolio</div>
-        <p className="text-left text-xs">A Portfolio website with modelled from Behance.com Gallery with contents gotten from same source, 2024.</p>
+        <div className="text-left text-base md:text-[18px] font-bold mb-2">Reverb Point Hub LTD</div>
+        <p className="text-left text-xs">REVERB is an integrated, purpose-driven ecosystem connecting people, knowledge and opportunity through inspiring spaces, expert guidance and practical learning.</p>
         
        <div className="mt-6 mb-2">
         <div className="flex items-center gap-[15px] mt-4">
@@ -206,18 +232,22 @@ export default async function Home() {
 
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="https://neyenwa.vercel.app">
-          <Image className="w-full h-full rounded-xl" src={marat} alt="" />
+        <Link href="https://jobsphere-rosy-gamma.vercel.app/">
+          <Image className="w-full h-full rounded-xl" src={jobsphere} alt="" />
         </Link>
 
         <div className="p-4">
-        <div className="text-left text-base md:text-[15px] font-bold mb-2">Marat Education Platform</div>
-        <p className="text-left text-xs">Marat Education is dedicated to transforming ideas into compelling online experiences. Purchase your online courses made up of trendy topics for effective growth.</p>
+        <div className="text-left text-base md:text-[15px] font-bold mb-2">JobShpere</div>
+        <p className="text-left text-xs">An online platform for sharing latest job opportunities and applying for qualified roles.</p>
         
        <div className="mt-6 mb-2">
-        <div className="flex items-center gap-[15px] mt-4">
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
+        <div className="flex flex-wrap md:items-center gap-4 mt-4 w-full">
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Typescript</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Node.js</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Next.js</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Prisma</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">API</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Tailwind CSS</div>
           <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
         </div>
         </div>
@@ -227,18 +257,22 @@ export default async function Home() {
 
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="">
-          <Image className="w-full h-full rounded-xl" src={microgpt} alt="" />
+        <Link href="https://library-management-system-theta-nine-14.vercel.app/">
+          <Image className="w-full h-full rounded-xl" src={meridian_web} alt="" />
         </Link>
 
         <div className="p-4">
-        <div className="text-left text-base md:text-[15px] font-bold mb-2">Microgpt</div>
-        <p className="text-left text-xs">A replica of microgpt.io as at November, 2024 </p>
+        <div className="text-left text-base md:text-[15px] font-bold mb-2">Meridian University Student Library</div>
+        <p className="text-left text-xs">A school management system for where students conveniently borrow and return books, search for books using author name, genre, or book title.</p>
         
          <div className="mt-6 mb-2">
-        <div className="flex items-center gap-[15px] mt-4">
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
+        <div className="flex flex-wrap md:items-center gap-4 mt-4 w-full">
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Next.js</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Typescript</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">Node.js</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">MongoDB</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">API</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Tailwind CSS</div>
           <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
         </div>
         </div>
@@ -287,7 +321,7 @@ export default async function Home() {
     <p className="text-xs text-left md:text-base">Looking forward to turning your innovative ideas to real-time project, got a new or existing business and want to enhance its visibility? You{`\'`}re at the right place.</p>
     <p className="text-left font-bold md:text-xl mt-6 mb-10 text-base">Let{`\'s`} talk!</p>
       <div className="flex items-center mb-4 gap-4">
-        <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-[40px] h-[25px] rounded-[8px] pt-[8px] pb-[24px] pr-[24px] pl-[12px] m-0"><svg className="w-[14px] md:w-[18px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" fill="#fff" /></svg></div>
+        <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-10 h-[25px] rounded-lg pt-2 pb-6 pr-6 pl-3 m-0"><svg className="w-3.5 md:w-[18px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" fill="#fff" /></svg></div>
        
         <div className="text-left">
           <div className="text-xs md:text-sm">Email</div>
@@ -296,7 +330,7 @@ export default async function Home() {
       </div>
 
       <div className="flex items-center mb-4 gap-4">
-        <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-[40px] h-[25px] rounded-[8px] pt-[8px] pb-[24px] pr-[24px] pl-[12px] m-0"><svg className="w-[14px] md:w-[18px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" fill="#fff"/></svg></div>
+        <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-10 h-[25px] rounded-lg pt-2 pb-6 pr-6 pl-3 m-0"><svg className="w-3.5 md:w-[18px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" fill="#fff"/></svg></div>
         
         <div className="text-left">
           <div className="text-xs md:text-sm">Phone</div>
@@ -305,7 +339,7 @@ export default async function Home() {
       </div>
 
       <div className="flex items-center mb-4b gap-4">
-        <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-[40px] h-[25px] rounded-[8px] pt-[8px] pb-[24px] pr-[26px] pl-[14px] m-0"><svg className="w-[10px] md:w-[12px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" fill="#fff"/></svg></div>
+        <div className="bg-[#397eff] hover:bg-[#1e1eefe3] w-[25px] md:w-10 h-[25px] rounded-lg pt-2 pb-6 pr-[26px] pl-3.5 m-0"><svg className="w-2.5 md:w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" fill="#fff"/></svg></div>
         
         <div className="text-left">
           <div className="text-xs md:text-sm">Location</div>
@@ -322,7 +356,7 @@ export default async function Home() {
 
 
 {/* Footer section */}
-    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-[20px] mt-28 md:mt-42 xl:px-[70px]">
+    <footer className="bg-[#0e0e0e] w-full md:w-full h-auto p-5 mt-28 md:mt-42 xl:px-[70px]">
       <div className="flex justify-between items-center pl-3 md:pl-0">
       <div className="logo"><span className="logo1">E</span><span className="logo2">E</span></div>
 
@@ -331,7 +365,7 @@ export default async function Home() {
           {/* <Link href="https://mail.google.com/mail/u/0/#inbox?compose=new"><svg className="w-[20px] md:w-[25px] h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z" fill="white"/></svg></Link> */}
         <div className="p-1.5 md:p-2 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://www.facebook.com/emmerson.ebiefie"><svg className="w-[17px] md:w-[22px] h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z" fill="#fff" stroke="blue"/></svg></Link></div>
         <div className="p-1.5 md:p-2 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://x.com/emmerson017"><svg className="w-[17px] md:w-[22px] h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z" fill="#fff"/></svg></Link></div>
-        <div className="p-1.5 md:p-2 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://ng.linkedin.com/in/emmanuel-ebiefie-51522625a"><svg className="w-[15px] md:w-[20px] h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z" fill="#fff"/></svg></Link></div>
+        <div className="p-1.5 md:p-2 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://ng.linkedin.com/in/emmanuel-ebiefie-51522625a"><svg className="w-[15px] md:w-5 h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z" fill="#fff"/></svg></Link></div>
         <div className="p-1.5 md:p-2 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://github.com/emmerson121"><svg className="w-[17px] md:w-[22px] h-full " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM252.8 8c-138.7 0-244.8 105.3-244.8 244 0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1 100-33.2 167.8-128.1 167.8-239 0-138.7-112.5-244-251.2-244zM105.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" fill="#fff"/></svg></Link></div>
         {/* <div className="p-2 rounded-full bg-white/10 transition-all hover:bg-[#397eff]"><Link href="https://www.instagram.com/emmerson150/"><svg className="w-[17px] md:w-[22px] h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="#fff"/></svg></Link></div> */}
         </div>
@@ -339,7 +373,7 @@ export default async function Home() {
 
       <br />
 
-      <div className="text-center text-[8px] mt-4 md:mt-2 md:font-[200]">Built by <span className="font-bold text-sm md:text-[16px]">Emmanuel <span className="text-[#397eff]">Ebiefie</span></span> - Front-End Developer</div>
+      <div className="text-center text-[8px] mt-4 md:mt-2 md:font-extralight">Built by <span className="font-bold text-sm md:text-[16px]">Emmanuel <span className="text-[#397eff]">Ebiefie</span></span> - Front-End Developer</div>
       {/* <p className="text-center text-xs">&copy; 2025 Emmanuel Ebiefie. All rights reserved.</p> */}
     </footer>
     </div>
