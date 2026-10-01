@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Emmerson Portfolio",
   description: "Portfolio built with Next.js",
   icons: {
-    icon: "/favicon.PNG"
+    icon: "/icon.PNG"
   },
 };
 
