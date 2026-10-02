@@ -12,7 +12,7 @@ export default function CountUp() {
       current += 1;
       setCount(current);
 
-      if (current === 6) {
+      if (current === 5) {
         clearInterval(interval);
       }
     }, 200);

@@ -44,7 +44,7 @@ export default async function Home() {
               <div className="text-center">
           {/* <h1 className='w-full text-4xl xl:text-5xl mb-4 mt-10'>Hi, I'm Ebiefie Emmanuel</h1> */}
           <AnimatedText />
-          <div className='w-full text-sm md:text-base'>I{`\'m`} a Fullstack Developer focused on building scalable web applications, productive and reliable management systems leading to the overall 
+          <div className='w-full text-sm md:text-base'>I{`\'m`} a Full-Stack Developer focused on building scalable web applications, productive and reliable management systems leading to the overall 
             success for companies, brands, and/or individuals.</div>
             </div>
 
@@ -74,7 +74,7 @@ export default async function Home() {
       <div data-aos='zoom-in-up' data-aos-delay="200" className="wrap gap-[30px] md:gap-[50px] md:flex md:justify-between w-full m-auto mb-14 md:mb-22">
         <div className="w-full lg:w-full md:text-left text-center text-xs md:text-base xl:text-lg"
         >
-          I{`\'m`} a Fullstack Developer dedicated towards creativity,
+          I{`\'m`} a Full-Stack Developer dedicated towards creativity,
            excellence, blending scalable and user-friendly UIs 
            with backend functionalities through RESTful APIs. 
         </div>
@@ -84,11 +84,11 @@ export default async function Home() {
        into real-world web applications for advertising their 
        services, selling their products, and building digital systems 
        for various uses. To solve these problems, I utilize JavaScript, 
-       Typescript, React, Next.js, GitHub.
+       TypeScript, React, Next.js, GitHub.
        For building systems and development of RESTful APIs, 
        I make use of tools like Node.js, Express.js, Prisma. 
-       I have delivered two (3) fullstack projects which are 
-       currently live, and 2 backend management systems. 
+       I have delivered three (3) fullstack projects which are 
+       currently live, and two (2) backend management systems. 
        Looking forward to building your dream project? 
        Kindly reach out.
 </div>
@@ -135,6 +135,7 @@ export default async function Home() {
           </div>
         </div>
 
+        {/* {Work Experience section} */}
         <div className="w-full md:w-[50%]">
           <div className="flex items-center gap-2 mb-8">
             <div><svg className="w-[25px] md:w-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M259.1 73.5C262.1 58.7 275.2 48 290.4 48L350.2 48C365.4 48 378.5 58.7 381.5 73.5L396 143.5C410.1 149.5 423.3 157.2 435.3 166.3L503.1 143.8C517.5 139 533.3 145 540.9 158.2L570.8 210C578.4 223.2 575.7 239.8 564.3 249.9L511 297.3C511.9 304.7 512.3 312.3 512.3 320C512.3 327.7 511.8 335.3 511 342.7L564.4 390.2C575.8 400.3 578.4 417 570.9 430.1L541 481.9C533.4 495 517.6 501.1 503.2 496.3L435.4 473.8C423.3 482.9 410.1 490.5 396.1 496.6L381.7 566.5C378.6 581.4 365.5 592 350.4 592L290.6 592C275.4 592 262.3 581.3 259.3 566.5L244.9 496.6C230.8 490.6 217.7 482.9 205.6 473.8L137.5 496.3C123.1 501.1 107.3 495.1 99.7 481.9L69.8 430.1C62.2 416.9 64.9 400.3 76.3 390.2L129.7 342.7C128.8 335.3 128.4 327.7 128.4 320C128.4 312.3 128.9 304.7 129.7 297.3L76.3 249.8C64.9 239.7 62.3 223 69.8 209.9L99.7 158.1C107.3 144.9 123.1 138.9 137.5 143.7L205.3 166.2C217.4 157.1 230.6 149.5 244.6 143.4L259.1 73.5zM320.3 400C364.5 399.8 400.2 363.9 400 319.7C399.8 275.5 363.9 239.8 319.7 240C275.5 240.2 239.8 276.1 240 320.3C240.2 364.5 276.1 400.2 320.3 400z" fill="#fff"/></svg></div>
@@ -143,16 +144,30 @@ export default async function Home() {
 
     <div className="gap-[30px] w-full">
           <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-full h-auto md:h-[200px] rounded-md text-left p-4 mb-8">
-            <div className="text-base md:text-lg font-bold mb-2">Front-End Developer</div>
-            <div className="text-xs md:text-sm">Armaweb Technology</div>
-            <div className="text-xs md:text-sm mb-2">2024 - Present</div>
-            <div className="text-xs md:text-sm">Development of scalable & user-friendly projects with maximum responsiveness and output.</div>
+            <div className="text-base md:text-lg font-bold mb-2">Full-Stack Developer</div>
+            <div className="text-xs md:text-sm">Reverb Point Hub LTD</div>
+            <div className="text-xs md:text-sm mb-2">2026 - Present</div>
+            <div className="text-xs md:text-sm">Collaborating with the team to build full-stack web applications, implementing new feature(s), handle documentation, participate in debugging and testing applications, code reviews, and support client project delivery.</div>
           </div>
 
-          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-[full] h-auto md:h-[200px] rounded-md text-left p-4">
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-[full] h-auto md:h-[150px] rounded-md text-left p-4 mb-8">
             <div className="text-base md:text-lg font-bold mb-2">Content Creator</div>
-            <div className="text-xs md:text-sm">Coinstore Exchange &nbsp; |&nbsp; Numbers Protocol</div>
+            <div className="text-xs md:text-sm">Numbers Protocol</div>
             <div className="text-xs md:text-sm mb-2">2022 - Present</div>
+            <div className="text-xs md:text-sm">Promotion of contents with infographics and visually-appealing video contents.</div>
+          </div>
+
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-full h-auto md:h-[180px] rounded-md text-left p-4 mb-8">
+            <div className="text-base md:text-lg font-bold mb-2">Front-End Developer</div>
+            <div className="text-xs md:text-sm">Armaweb Technology</div>
+            <div className="text-xs md:text-sm mb-2">2024 - 2026</div>
+            <div className="text-xs md:text-sm">Turning innovative ideas into responsive and intuitive web applications, code reviews, and debugging, and maintenance of websites.</div>
+          </div>
+
+          <div data-aos='zoom-in-up' data-aos-delay="200" className="bg-[#2c2c2ce3] w-[full] h-auto md:h-[150px] rounded-md text-left p-4 mb-8">
+            <div className="text-base md:text-lg font-bold mb-2">Content Creator</div>
+            <div className="text-xs md:text-sm">Coinstore Exchange</div>
+            <div className="text-xs md:text-sm mb-2">2022 - 2026</div>
             <div className="text-xs md:text-sm">Promotion of contents with infographics and visually-appealing video contents.</div>
           </div>
           </div>
@@ -167,48 +182,6 @@ export default async function Home() {
       <p className="mb-4 text-xs md:text-base p-4">Below are various projects I{`\'`}ve built, made up of personal and clients projects:</p>
 
       <div className=" flex justify-center items-center flex-wrap w-full gap-12 xl:gap-18 p-[18px] m-auto">
-        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="https://adiele.vercel.app">
-          <Image className="w-full h-full rounded-xl" src={adane} alt="" />
-        </Link>
-
-        <div className="p-4">
-        <div className="text-left text-base md:text-[18px] font-bold mb-2">Adane Technology</div>
-        <p className="text-left text-xs">A real-time project focused at blending technical expertise with artistic vision in turning digital dreams to reality.</p>
-        
-        <div className="mt-6 mb-2">
-        <div className="flex items-center gap-[15px] mt-4">
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
-        </div>
-        </div>
-        </div>
-        </div>
-         </div>
-
-        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="https://mayweb.vercel.app/">
-          <Image className="w-full h-full rounded-xl" src={completeweb} alt="" />
-        </Link>
-
-        <div className="p-4">
-        <div className="text-left text-base md:text-[18px] font-bold mb-2">First Tutorial Project</div>
-        <p className="text-left text-xs">My beginner website that includes pricings for various website services as at 2023.</p>
-
-        <div className="mt-6 mb-2">
-        <div className="flex items-center gap-[15px] mt-4">
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-       
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://www.reverbpointhub.com">
@@ -254,6 +227,49 @@ export default async function Home() {
         </div>
         </div>
         </div>
+
+         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
+        <Link href="https://adiele.vercel.app">
+          <Image className="w-full h-full rounded-xl" src={adane} alt="" />
+        </Link>
+
+        <div className="p-4">
+        <div className="text-left text-base md:text-[18px] font-bold mb-2">Adane Technology</div>
+        <p className="text-left text-xs">A real-time project focused at blending technical expertise with artistic vision in turning digital dreams to reality.</p>
+        
+        <div className="mt-6 mb-2">
+        <div className="flex items-center gap-[15px] mt-4">
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
+        </div>
+        </div>
+        </div>
+        </div>
+         </div>
+
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
+        <Link href="https://mayweb.vercel.app/">
+          <Image className="w-full h-full rounded-xl" src={completeweb} alt="" />
+        </Link>
+
+        <div className="p-4">
+        <div className="text-left text-base md:text-[18px] font-bold mb-2">First Tutorial Project</div>
+        <p className="text-left text-xs">My beginner website that includes pricings for various website services as at 2023.</p>
+
+        <div className="mt-6 mb-2">
+        <div className="flex items-center gap-[15px] mt-4">
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+       
 
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
@@ -373,7 +389,7 @@ export default async function Home() {
 
       <br />
 
-      <div className="text-center text-[8px] mt-4 md:mt-2 md:font-extralight">Built by <span className="font-bold text-sm md:text-[16px]">Emmanuel <span className="text-[#397eff]">Ebiefie</span></span> - Front-End Developer</div>
+      <div className="text-center text-[8px] mt-4 md:mt-2 md:font-extralight">Built by <span className="font-bold text-sm md:text-[16px]">Emmanuel <span className="text-[#397eff]">Ebiefie</span></span> - Full-Stack Developer</div>
       {/* <p className="text-center text-xs">&copy; 2025 Emmanuel Ebiefie. All rights reserved.</p> */}
     </footer>
     </div>
