@@ -184,27 +184,6 @@ export default async function Home() {
       <div className=" flex justify-center items-center flex-wrap w-full gap-12 xl:gap-18 p-[18px] m-auto">
         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
-        <Link href="https://www.reverbpointhub.com">
-          <Image className="w-full h-full rounded-xl" src={reverb_web} alt="" />
-        </Link>
-
-        <div className="p-4">
-        <div className="text-left text-base md:text-[18px] font-bold mb-2">Reverb Point Hub LTD</div>
-        <p className="text-left text-xs">REVERB is an integrated, purpose-driven ecosystem connecting people, knowledge and opportunity through inspiring spaces, expert guidance and practical learning.</p>
-        
-       <div className="mt-6 mb-2">
-        <div className="flex items-center gap-[15px] mt-4">
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
-          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-
-        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
-        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://jobsphere-rosy-gamma.vercel.app/">
           <Image className="w-full h-full rounded-xl" src={jobsphere} alt="" />
         </Link>
@@ -227,8 +206,29 @@ export default async function Home() {
         </div>
         </div>
         </div>
+        
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
+        <Link href="https://www.reverbpointhub.com">
+          <Image className="w-full h-full rounded-xl" src={reverb_web} alt="" />
+        </Link>
 
-         <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
+        <div className="p-4">
+        <div className="text-left text-base md:text-[18px] font-bold mb-2">Reverb Point Hub LTD</div>
+        <p className="text-left text-xs">REVERB is an integrated, purpose-driven ecosystem connecting people, knowledge and opportunity through inspiring spaces, expert guidance and practical learning.</p>
+        
+       <div className="mt-6 mb-2">
+        <div className="flex items-center gap-[15px] mt-4">
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[60px] xl:w-[75px] rounded-full text-xs">React</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[50px] xl:w-[50px] rounded-full text-xs">CSS</div>
+          <div className="bg-[#181818f2] border border-[#0e0e0e] p-2 w-[140px] xl:w-[155px] rounded-full text-xs">Responsive Design</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div className="bg-[#2c2c2ce3] rounded-md w-full md:w-[320px] lg:w-[450px] xl:w-[580px] h-auto">
         <div data-aos='fade-up' data-aos-delay="200" className="xl:w-[580px] lg:w-[450px] md:w-[320px]">
         <Link href="https://adiele.vercel.app">
           <Image className="w-full h-full rounded-xl" src={adane} alt="" />
